@@ -1,0 +1,192 @@
+:root {
+    --site-color-01: #515A5A;
+    --site-color-01-hover: #515A5A;
+
+}
+
+body {
+    background-color: #515A5A;
+}
+body:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url(../src/images/facebook\ logo\ coloer.png);
+}
+
+.main-text-header{
+    font-size: 40px;
+    line-height: 32px;
+    color:  #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 80px;
+    
+    
+    
+}
+
+.main-intro p{
+    font-size: 26px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    
+
+}
+
+
+
+a {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+.header-main {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+}
+.header-main-logo img{
+    height: 60px;
+    align-self: center;
+}
+
+/*.header-main-nav{
+    width:100%;
+    height: 60px;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    
+}
+*/
+.btn-toggle-nav{
+    width: 60px;
+    height: 100%;
+    background-color: #FFFFFF;
+    background-image: url("../src/images/hamburger\ menu\ icon.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    cursor: pointer;
+
+ 
+ }
+
+ .btn-toggle-nav:hover {
+    opacity: 0.5;
+ }
+ /*.header-main-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    
+}
+*/
+/* .header-main-nav  ul li {
+    list-style: none;
+    line-height: 55px;
+    
+ }
+*/
+/* .header-main-nav ul li a {
+    display: block;
+   line-height: 55px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#5D085B
+ }
+*/
+ .nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: #FFFFFF;
+    z-index: 1000;
+    transition: all 0.2s ease-in-out;
+
+ }
+
+ .nav-sidebar ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+ }
+
+ .nav-sidebar ul li{
+    list-style: none;
+    line-height: 55px;
+ }
+
+ .nav-sidebar ul li span , .nav-sidebar ul li a{
+    display: block;
+    line-height: 55px;
+     padding: 0 10px;
+     text-transform: uppercase;
+     text-decoration: none;
+     color:#5D085B;
+     white-space: nowrap;
+     opacity: 0;
+     transition: all 0.2s ease-in-out;
+ }
+
+ .nav-sidebar ul li a:hover {
+   background-color: #515A5A;
+ }
+    
+  
+    
+ 
+
+
+
+
+ 
+ 
+
+ 
+.header-main-sm{
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-main-sm-fb{
+    width: 20px;
+    height: 20px;
+    background-image: url(../src/images/facebook\ logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-fb:hover {
+    background-image: url(../src/images/facebook\ logo\ coloer.png);
+
+
+}
